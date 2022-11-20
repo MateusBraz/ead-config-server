@@ -40,7 +40,7 @@ ead:
     exchange:
       userEvent: ead.userevent
 
-authuse:
+authuser:
   refreshscope:
     name: Mateus Braz
 
