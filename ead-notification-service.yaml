@@ -41,7 +41,7 @@ ead:
       notificationCommandQueue:
         name: ead.notificationcommand.ms.notification
     key:
-      notificationCommandKey: ms.teste
+      notificationCommandKey: ms.notification
 
 
 management:
