@@ -7,7 +7,7 @@ spring:
   application:
     name: ead-course-service
   datasource:
-    url:  jdbc:postgresql://localhost:5433/ead-course-v2
+    url:  jdbc:postgresql://localhost:5432/ead-course-v2
     username: postgres
     password: 123456
   jpa:
@@ -23,7 +23,7 @@ spring:
     ansi:
       enabled: Always
   rabbitmq:
-    addresses: amqps://bsrtidca:1leK7T8G2W36mf1KpqA8wsolrqdo_pN2@jackal.rmq.cloudamqp.com/bsrtidca
+    addresses: amqp://user:123456@localhost:5672/
 
 logging:
   level:
