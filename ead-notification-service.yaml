@@ -7,7 +7,7 @@ spring:
   application:
     name: ead-notification-service
   datasource:
-    url:  jdbc:postgresql://localhost:5432/ead-notification-v2
+    url:  jdbc:postgresql://localhost:5432/ead_notification
     username: postgres
     password: 123456
   jpa:
@@ -24,7 +24,6 @@ spring:
       enabled: Always
   rabbitmq:
     addresses: amqp://user:123456@localhost:5672/
-
 
 logging:
   level:
